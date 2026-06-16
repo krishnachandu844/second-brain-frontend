@@ -1,4 +1,4 @@
-export function InstagramIcon({ className = "w-6 h-6" }) {
+export function InstagramIcon() {
   return (
     <svg
       width='20px'

@@ -1,8 +1,6 @@
 import Home from "../components/home/Homepage";
 
-type Props = {};
-
-export const Landing = (props: Props) => {
+export const Landing = () => {
   return (
     <div className='min-h-screen'>
       <Home />

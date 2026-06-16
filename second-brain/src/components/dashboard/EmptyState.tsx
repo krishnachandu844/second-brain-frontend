@@ -1,9 +1,7 @@
 import { Inbox } from "lucide-react";
 import AddDialog from "./AddDialog";
 
-type Props = {};
-
-const EmptyState = (props: Props) => {
+const EmptyState = () => {
   return (
     <div className='text-center py-20 bg-card border border-dashed border-border rounded-3xl'>
       <div className='size-14 mx-auto rounded-2xl bg-brand/10 text-brand grid place-items-center mb-4'>

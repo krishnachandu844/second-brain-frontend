@@ -66,7 +66,6 @@ export const useAuthStore = create<AuthState>((set) => ({
         credentials: "include",
       },
     );
-    const data = await response.json();
     if (!response.ok) {
       toast.error("Logout Unsuccessfull");
     } else {
