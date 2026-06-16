@@ -31,6 +31,8 @@ export default function SigninForm() {
   const { getUser } = useAuthStore();
   const [show, setShow] = useState(false);
 
+  const navigate = useNavigate();
+
   const onSubmit: SubmitHandler<SigninFormFields> = async (
     data: SigninFormFields,
   ) => {
@@ -44,7 +46,6 @@ export default function SigninForm() {
     }
   };
 
-  const navigate = useNavigate();
   return (
     <div className='py-32 bg-muted'>
       <div className='w-300 contianer mx-auto max-w-lg space-y-3 flex flex-col items-center'>
